@@ -50,13 +50,19 @@ namespace FunctionalAirlocks
 			buildingDef.PermittedRotations = PermittedRotations.Unrotatable;
 			buildingDef.SceneLayer = Grid.SceneLayer.TileMain;
 			buildingDef.ForegroundLayer = Grid.SceneLayer.InteriorWall;
-			buildingDef.OutputConduitType = ConduitType.Gas;
-			buildingDef.UtilityOutputOffset = new CellOffset(1, 0);
+			//buildingDef.OutputConduitType = ConduitType.Gas;
+			//buildingDef.UtilityOutputOffset = new CellOffset(1, 0);
 
-			GeneratedBuildings.RegisterWithOverlay(OverlayScreen.GasVentIDs, Id);
+			//GeneratedBuildings.RegisterWithOverlay(OverlayScreen.GasVentIDs, Id);
 
-			SoundEventVolumeCache.instance.AddVolume("door_external_kanim", "Open_DoorPressure", NOISE_POLLUTION.NOISY.TIER2);
-			SoundEventVolumeCache.instance.AddVolume("door_external_kanim", "Close_DoorPressure", NOISE_POLLUTION.NOISY.TIER2);
+			SoundEventVolumeCache.instance.AddVolume(
+				"door_external_kanim", 
+				"Open_DoorPressure", 
+				NOISE_POLLUTION.NOISY.TIER2);
+			SoundEventVolumeCache.instance.AddVolume(
+				"door_external_kanim", 
+				"Close_DoorPressure", 
+				NOISE_POLLUTION.NOISY.TIER2);
 			
 			return buildingDef;
 		}
