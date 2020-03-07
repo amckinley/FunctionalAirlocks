@@ -47,13 +47,13 @@ namespace FunctionalAirlocks
 			buildingDef.ViewMode = OverlayModes.Power.ID;
 			buildingDef.TileLayer = ObjectLayer.FoundationTile;
 			buildingDef.AudioCategory = "Metal";
-			buildingDef.PermittedRotations = PermittedRotations.Unrotatable;
+			buildingDef.PermittedRotations = PermittedRotations.R90;
 			buildingDef.SceneLayer = Grid.SceneLayer.TileMain;
 			buildingDef.ForegroundLayer = Grid.SceneLayer.InteriorWall;
-			//buildingDef.OutputConduitType = ConduitType.Gas;
-			//buildingDef.UtilityOutputOffset = new CellOffset(1, 0);
+			buildingDef.OutputConduitType = ConduitType.Gas;
+			buildingDef.UtilityOutputOffset = new CellOffset(1, 0);
 
-			//GeneratedBuildings.RegisterWithOverlay(OverlayScreen.GasVentIDs, Id);
+			GeneratedBuildings.RegisterWithOverlay(OverlayScreen.GasVentIDs, Id);
 
 			SoundEventVolumeCache.instance.AddVolume(
 				"door_external_kanim", 
@@ -144,13 +144,11 @@ namespace FunctionalAirlocks
 			base.DoPostConfigurePreview(def, go);
 			go.AddComponent<KAnimControllerResize>().width = 3.0f;
 		}
-
 		public override void DoPostConfigureUnderConstruction(GameObject go)
 		{
 			base.DoPostConfigureUnderConstruction(go);
 			go.AddComponent<KAnimControllerResize>().width = 3.0f;
 		}
-
 
 		public override void DoPostConfigureComplete(GameObject go)
 		{
