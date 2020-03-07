@@ -1,0 +1,14 @@
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\FunctionalAirlocks.dll
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\FunctionalAirlocks.pdb
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\0Harmony.dll
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\Assembly-CSharp.dll
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\UnityEngine.dll
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\obj\Debug\FunctionalAirlocks.csprojAssemblyReference.cache
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\obj\Debug\FunctionalAirlocks.csproj.CopyComplete
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\obj\Debug\FunctionalAirlocks.dll
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\obj\Debug\FunctionalAirlocks.pdb
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\UnityEngine.UI.dll
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\Unity.TextMeshPro.dll
+C:\Users\Austin McKinley\source\repos\FunctionalAirlocks\FunctionalAirlocks\bin\Debug\UnityEngine.ImageConversionModule.dll
